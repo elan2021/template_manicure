@@ -5,3 +5,6 @@ out/
 data/*.db
 data/*.db-journal
 *_incompleto_*/
+.env
+.env.*
+!.env.example
