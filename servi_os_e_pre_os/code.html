@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;600&amp;family=Plus+Jakarta+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "outline": "#8d7075", "surface-tint": "#b81059", "on-primary-fixed-variant": "#8f0042", "on-primary-container": "#ffd5dd", "inverse-primary": "#ffb1c3", "primary-fixed": "#ffd9e0", "background": "#fff7fa", "surface-bright": "#fff7fa", "tertiary-fixed-dim": "#ffb2b7", "primary": "#970046", "surface-container": "#f5ebef", "on-surface-variant": "#594046", "on-error-container": "#93000a", "surface-variant": "#e9e0e4", "error-container": "#ffdad6", "surface-container-lowest": "#ffffff", "surface-dim": "#e1d8dc", "on-primary": "#ffffff", "secondary-fixed-dim": "#fab983", "on-tertiary-container": "#ffd6d8", "surface-container-high": "#efe6ea", "on-secondary-fixed": "#2e1500", "surface-container-low": "#fbf1f5", "surface-container-highest": "#e9e0e4", "secondary": "#845326", "on-primary-fixed": "#3f0019", "primary-fixed-dim": "#ffb1c3", "inverse-on-surface": "#f8eef2", "on-tertiary-fixed": "#40000d", "tertiary-container": "#c3143f", "on-background": "#1e1a1d", "on-tertiary-fixed-variant": "#92002a", "tertiary": "#9a002d", "on-secondary-container": "#78491d", "inverse-surface": "#342f32", "on-tertiary": "#ffffff", "surface": "#fff7fa", "on-error": "#ffffff", "tertiary-fixed": "#ffdadb", "on-secondary": "#ffffff", "on-secondary-fixed-variant": "#683c11", "outline-variant": "#e0bec4", "error": "#ba1a1a", "secondary-fixed": "#ffdcc2", "secondary-container": "#febc85", "primary-container": "#be185d", "on-surface": "#1e1a1d" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2.25rem", "space-sm": "0.5rem", "space-md": "1rem", "gutter": "1rem", "margin": "1.25rem", "space-lg": "1.5rem", "space-xs": "0.25rem" }, "fontFamily": { "label-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Epilogue"], "label-sm": ["Plus Jakarta Sans"], "title-lg": ["Plus Jakarta Sans"], "display-lg": ["Epilogue"], "label-md": ["Plus Jakarta Sans"], "headline-lg": ["Epilogue"], "headline-md": ["Epilogue"], "body-sm": ["Plus Jakarta Sans"] }, "fontSize": { "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" }], "title-lg": ["18px", { "lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "600" }], "display-lg": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500" }], "headline-lg": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "600" }], "headline-md": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style></head><body class="bg-surface text-on-surface flex flex-col min-h-screen antialiased selection:bg-primary/20 selection:text-primary"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_4px_20px_-4px_rgba(190,24,93,0.06)] pt-safe"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="L'Émail Studio Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VYzYrHum-_aOHFHXmmM1NqTyK9OrMqo7XQdC_EavN_ODnHAqPq6RH5B1An9xTxVDFGySH97bAACAiXKstjnM2P4XC8J_FqkiDiiCjrSBY1HlGoyVsPAk4ebrdLFC2To8wsO14z_D6msI_IaaBs3f4dCU5K3s6xDwmavk8CSCMfcyIq6mWox4vK6LSNHss0nQidwQGCvUP6dSS2wrXyvRqm-RQYUyzBayxI3iJXnu9P_h4tZ7MQrPdC"/><div class="flex flex-col"><span class="font-title-lg text-title-lg text-primary leading-tight">L'Émail Studio</span><span class="font-label-sm text-label-sm text-on-surface-variant font-medium tracking-wide uppercase">Equipe &amp; Serviços</span></div></div><div class="flex items-center gap-space-sm"><button aria-label="Notificações" class="w-11 h-11 rounded-full flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors relative"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-primary ring-2 ring-surface"></span></button><div class="relative flex items-center justify-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary/20 shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFQrw3_FIA8SZjC1JtbGWUAXJv6wjd7d1iM0lyucrYdvvOsY6TlL-vLlJwvJIJybqqXCfNdsSs6CCeJbaGgekTP0uiF685AwqFWXIBMfGlsWaTVk-z_ugR993EfY85k2wQD7U0ntqtRiR9pRmeYaBCUipePFztvYpnZ8qxOVKFHl-NZsR3baBzArT8vhX63Sm7pKlT_CtTJDWUmzhoUOA7GwikC9mmlW156VkRYqK8JEU_osEEoZ8"/><span class="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 bg-primary rounded-full ring-2 ring-surface"></span></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full px-margin pb-space-xl space-y-space-lg">
+<!-- Sub-header & Quick Stat Banner -->
+<div class="flex flex-col space-y-space-md">
+<div class="flex items-center justify-between">
+<div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface">Menu de Serviços</h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Gestão de catálogo, tempos de cabine e repasse</p>
+</div>
+<button class="flex items-center justify-center gap-space-xs px-space-md h-11 bg-primary text-on-primary rounded-full shadow-md hover:bg-primary-container active:scale-95 transition-all" id="openNewServiceBtn">
+<span class="material-symbols-outlined text-[20px]">add</span>
+<span class="font-label-md text-label-md">Novo Serviço</span>
+</button>
+</div>
+<!-- Live Performance Pill Grid -->
+<div class="grid grid-cols-3 gap-space-xs p-space-xs bg-surface-container-low rounded-xl">
+<div class="bg-surface-container-lowest p-space-sm rounded-lg flex flex-col shadow-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Ativos</span>
+<span class="font-title-md text-title-md text-primary mt-0.5">24 itens</span>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-lg flex flex-col shadow-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Ticket Médio</span>
+<span class="font-title-md text-title-md text-secondary mt-0.5">R$ 138</span>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-lg flex flex-col shadow-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Ocupação</span>
+<span class="font-title-md text-title-md text-primary mt-0.5">88%</span>
+</div>
+</div>
+<!-- Search Box with tactile blur feel -->
+<div class="relative flex items-center w-full">
+<span class="material-symbols-outlined absolute left-4 text-on-surface-variant text-[20px]">search</span>
+<input class="w-full h-[50px] pl-11 pr-11 bg-surface-container-low rounded-xl text-on-surface placeholder:text-on-surface-variant font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest focus:shadow-[0_0_0_2px_rgba(190,24,93,0.18)] transition-all" id="serviceSearchInput" placeholder="Buscar por técnica, acabamento ou tempo..." type="text"/>
+<button aria-label="Filtros avançados" class="absolute right-3 w-8 h-8 rounded-lg flex items-center justify-center text-on-surface-variant hover:text-primary active:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+</button>
+</div>
+<!-- Category Tabs Filter Carousel -->
+<div class="flex items-center gap-space-xs overflow-x-auto pb-1 -mx-margin px-margin scrollbar-none">
+<button class="category-pill active flex items-center gap-1.5 px-space-md py-2 rounded-full font-label-md text-label-md bg-primary text-on-primary shadow-sm whitespace-nowrap transition-all" data-category="all">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-fixed"></span>
+<span>Todos</span>
+<span class="bg-on-primary/20 text-on-primary text-[10px] px-1.5 py-0.5 rounded-full font-semibold ml-0.5">18</span>
+</button>
+<button class="category-pill flex items-center gap-1.5 px-space-md py-2 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface-variant hover:text-on-surface whitespace-nowrap transition-all" data-category="alongamentos">
+<span>Alongamentos</span>
+<span class="bg-surface-container text-on-surface-variant text-[10px] px-1.5 py-0.5 rounded-full font-semibold ml-0.5">6</span>
+</button>
+<button class="category-pill flex items-center gap-1.5 px-space-md py-2 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface-variant hover:text-on-surface whitespace-nowrap transition-all" data-category="nailart">
+<span>Nail Art</span>
+<span class="bg-surface-container text-on-surface-variant text-[10px] px-1.5 py-0.5 rounded-full font-semibold ml-0.5">5</span>
+</button>
+<button class="category-pill flex items-center gap-1.5 px-space-md py-2 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface-variant hover:text-on-surface whitespace-nowrap transition-all" data-category="pes">
+<span>Cuidados &amp; Pés</span>
+<span class="bg-surface-container text-on-surface-variant text-[10px] px-1.5 py-0.5 rounded-full font-semibold ml-0.5">7</span>
+</button>
+</div>
+</div>
+<!-- Services List Stack -->
+<div class="flex flex-col space-y-space-md" id="servicesList">
+<!-- Card 1: Alongamento em Fibra de Vidro -->
+<article class="service-card relative bg-surface-container-lowest rounded-xl p-space-md shadow-[0_4px_20px_-2px_rgba(190,24,93,0.05)] transition-all hover:shadow-[0_8px_24px_-4px_rgba(190,24,93,0.09)]" data-category="alongamentos">
+<div class="absolute left-0 top-3 bottom-3 w-1 bg-primary rounded-r-full"></div>
+<div class="flex flex-col space-y-space-sm pl-2">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="font-label-sm text-label-sm bg-primary-fixed text-on-primary-fixed px-2 py-0.5 rounded-full">Alongamentos</span>
+<span class="font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed px-2 py-0.5 rounded-full flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[13px]">star</span> 4.9
+              </span>
+</div>
+<h2 class="font-title-lg text-title-lg text-on-surface mt-1 truncate">Alongamento em Fibra de Vidro</h2>
+</div>
+<div class="flex flex-col items-end shrink-0">
+<span class="font-headline-md text-headline-md text-primary">R$ 220<span class="text-xs font-normal">,00</span></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 2h 00m
+            </span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2">
+          Técnica resistente com acabamento natural, inclui cutilagem e hidratação cuticular profunda com óleos botânicos.
+        </p>
+<!-- Visual Media Sample & Tag Details -->
+<div class="flex items-center gap-space-md pt-space-xs">
+<img class="w-14 h-14 rounded-lg object-cover shadow-sm shrink-0" data-alt="Close up of pristine luxury fiberglass manicured nails with a natural glossy nude finish under warm studio lighting, subtle rose tint reflections, soft focus depth of field, high-end beauty salon aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4VjwGg_F3FY5GoYtQX2UaXkSfvmS1okDDVbszoNm3_K2IE6Y02DkZsP5RJcmgIsNz9yRWIZpIYlHyeGK0lVkoKzPe9WVxWjSvhnNbcymXheQm0m21XHtWktbWyKRcS-AVtc7JCGzB5-yyA-LVqpACnbw8fVIcsTyxdRUf5biIsq46xbnTvao155AMThyaj_Tti_5B7wVhtW-Qtl0MPosYR0XqnNnXTrU3QqECXVfCwV21zkGtyp0"/>
+<div class="flex-1 min-w-0 flex flex-col justify-center space-y-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Especialistas Vinculadas</span>
+<div class="flex items-center gap-space-xs">
+<div class="flex -space-x-2 overflow-hidden">
+<img class="inline-block h-7 w-7 rounded-full object-cover ring-2 ring-surface-container-lowest" data-alt="Portrait of Mariana S., a sophisticated female nail designer with her dark hair neatly tied in a salon, warm natural daylight, gentle smile, modern apron." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAj6MKlUQ1vD3_kW7TNvu2fzNVm1MdpzU9N6WhhbqZV_vN6yl3bn1sJAe-zSMRNdAg9ficP9F8dtQHgqNuJvuoMjvft8G831nvzY7aPM_fMj4O2-_oWzAfHAb7uBZjyYtQbSscH4QXMT2qr9Ih6EiOXFOW8sfp_8FuyIJPmvPfUz-fB-EvfglAaMiUcGcvVSPTt8F_C9Tw-qHdoqK6_UJvnKnnzNOlvnJ7XLQY5fju_Bqrl0kZGeFQ" title="Mariana S."/>
+<img class="inline-block h-7 w-7 rounded-full object-cover ring-2 ring-surface-container-lowest" data-alt="Portrait of Larissa P., stylish nail master specialist smiling warmly, wearing a chic blush uniform in a bright modern aesthetic salon." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9fC7onF6onHKeAuikmsVe9weoqYM00gi-nfdTskWXb1TXP-Pwv0mqrJKnz7kEmAG7FcIHteZBudpX_Jpt1PJyhTojdY2tGF5oDFvifzMbqVHANKhSLoned4Ce3HRun5R5T07yE6CcchDjUuHcAi_fmA1VPoU2wXTa6Z0CeCzjCYnGsyMCSvIR09St-jBdOTll2vQYEnYfUyvVYV1QZukFQbwcV8ZAIGvfmlY8Dca7wO-LcltmS58" title="Larissa P."/>
+</div>
+<span class="font-label-md text-label-md text-on-surface">Mariana S., Larissa P.</span>
+</div>
+</div>
+</div>
+<!-- Card Footbar Quick Action -->
+<div class="flex items-center justify-between pt-space-xs border-t-0">
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">verified</span>
+<span>Comissão padrão (40%)</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button aria-label="Editar serviço" class="action-edit-btn w-9 h-9 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+<button aria-label="Mais opções" class="w-9 h-9 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+<!-- Card 2: Manicure Russa com Esmaltação em Gel -->
+<article class="service-card relative bg-surface-container-lowest rounded-xl p-space-md shadow-[0_4px_20px_-2px_rgba(190,24,93,0.05)] transition-all hover:shadow-[0_8px_24px_-4px_rgba(190,24,93,0.09)]" data-category="nailart">
+<div class="absolute left-0 top-3 bottom-3 w-1 bg-surface-tint rounded-r-full"></div>
+<div class="flex flex-col space-y-space-sm pl-2">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="font-label-sm text-label-sm bg-tertiary-fixed text-on-tertiary-fixed px-2 py-0.5 rounded-full">Técnica Exclusiva</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-on-surface-variant px-2 py-0.5 rounded-full flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[13px] text-secondary">trending_up</span> Alta Procura
+              </span>
+</div>
+<h2 class="font-title-lg text-title-lg text-on-surface mt-1 truncate">Manicure Russa com Esmaltação em Gel</h2>
+</div>
+<div class="flex flex-col items-end shrink-0">
+<span class="font-headline-md text-headline-md text-primary">R$ 140<span class="text-xs font-normal">,00</span></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 1h 15m
+            </span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2">
+          Cutilagem minuciosa a seco com micromotor e esmaltação ultra duradoura até 25 dias com brilho espelhado.
+        </p>
+<!-- Visual Media Sample & Tag Details -->
+<div class="flex items-center gap-space-md pt-space-xs">
+<img class="w-14 h-14 rounded-lg object-cover shadow-sm shrink-0" data-alt="Detailed macro view of flawless Russian manicure with pale pink gel polish, clean cuticle line, soft pastel studio ambience, clean aesthetic, luxury nails." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjnITrRpE6w4VcqGMkX108SxfcTKtwdKXcA7xyicmFi56-fPYz855-4O5sr-19TbKSSxoHL8iK1dIPGEiH2Bh63Ye5ytufILvLhrD_5RKvglFnpTul7gyO20ePiCS8qBwMjmYZUY5kJ1xB2A0gVzgw-EtlDhYyZCqAwjPCufKYAonb789Rk7B7Sp5fAcu_2k2HKWGLXKQiHlfMPU3nidSmLcbYd0GsAM45CSAKXNZ3nxitUDkpgNE"/>
+<div class="flex-1 min-w-0 flex flex-col justify-center space-y-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Especialistas Vinculadas</span>
+<div class="flex items-center gap-space-xs">
+<div class="flex -space-x-2 overflow-hidden">
+<img class="inline-block h-7 w-7 rounded-full object-cover ring-2 ring-surface-container-lowest" data-alt="Portrait of Mariana S., chic nail artist in salon uniform." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfQOBhyT1ZF5eMQ6R69yPQs-1JVhFulPDawXbK4L5e-SWFg8GHNDac9-WGcjkC37yFZAsjrIXucG9Rr0IBkVblSXBhi_qjJWDa3pi9R05CR0ujef282WNOv3GAve-xjsanfpQ8BY6tnl0ZNBTAfNOFvv4-BeBcX_QUd_W5WgTPtSzmxARurYPtW9mkliUh0v8oPvZvLS69p540WzbGywGGzZxAVVAooqsJu5WSZv1PVCte5Hz22IE"/>
+<img class="inline-block h-7 w-7 rounded-full object-cover ring-2 ring-surface-container-lowest" data-alt="Portrait of Larissa P., nail specialist smiling." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtfZgYmgI1wVe36GSP6ESuah6QMeK50Ql545w42v2vJO7gHU9JAAAgoO7fmlgaBuDcY6JBDFI9KCn8WzT4L6fxNyJrdthUpwyZYzM4hQJbmnciYbUnzJvBgt3-GBlCt2qPgFz_zZ4K76GQkjI3iUecHa9aY3OXtmy0hy6sj-_ueW5pKygyLcjcDt4N44GeUNOvtXdVST_GY2DUO6CnZYlc5cHMpElvvMYLW3-uAXNksg88NvtPxCI"/>
+<img class="inline-block h-7 w-7 rounded-full object-cover ring-2 ring-surface-container-lowest" data-alt="Portrait of Fernanda R., expert nail and spa technician with warm brown hair and a professional serene expression." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeRp0NVhIKHOZXZlYMXgmnCLhtBql4Vo9ZajO0LGgP4l9QR9eGlmQoSwhDHU-wQqZ9ggiLjtt8XLarJyWVvnBT-GeMLx_YQmOmG676Pa9ttP6Qw3TKH2R064SsisVPs9G01Ym9kjUK4W_8OQA-zxH1Eo-kONH1E5PTZ59XunR9wKtf4j2O6PFzT5v3_JUeWFoo0XDESfjOeL_fB0EV7JmtvS8Km_9OjrYVwC2dPDxAxRoNFfL0_4U"/>
+</div>
+<span class="font-label-md text-label-md text-on-surface">Mariana, Larissa, Fernanda</span>
+</div>
+</div>
+</div>
+<!-- Card Footbar Quick Action -->
+<div class="flex items-center justify-between pt-space-xs border-t-0">
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">alarm_on</span>
+<span>Tempo sugerido: 75 min</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button aria-label="Editar serviço" class="action-edit-btn w-9 h-9 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+<button aria-label="Mais opções" class="w-9 h-9 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+<!-- Card 3: Spa dos Pés Regenerador -->
+<article class="service-card relative bg-surface-container-lowest rounded-xl p-space-md shadow-[0_4px_20px_-2px_rgba(190,24,93,0.05)] transition-all hover:shadow-[0_8px_24px_-4px_rgba(190,24,93,0.09)]" data-category="pes">
+<div class="absolute left-0 top-3 bottom-3 w-1 bg-secondary rounded-r-full"></div>
+<div class="flex flex-col space-y-space-sm pl-2">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed px-2 py-0.5 rounded-full">Cuidados &amp; Pés</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-on-surface-variant px-2 py-0.5 rounded-full">Relaxante</span>
+</div>
+<h2 class="font-title-lg text-title-lg text-on-surface mt-1 truncate">Spa dos Pés Regenerador</h2>
+</div>
+<div class="flex flex-col items-end shrink-0">
+<span class="font-headline-md text-headline-md text-primary">R$ 110<span class="text-xs font-normal">,00</span></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 50m
+            </span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2">
+          Esfoliação com cristais aromáticos, máscara ultra-hidratante com toalhas aquecidas e massagem relaxante podal.
+        </p>
+<!-- Visual Media Sample & Tag Details -->
+<div class="flex items-center gap-space-md pt-space-xs">
+<img class="w-14 h-14 rounded-lg object-cover shadow-sm shrink-0" data-alt="Serene foot spa treatment with aromatic rose petals floating in warm water basin, soothing towels, soft candles and subtle luxury textures in high-end nail salon." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJ9Yj6Y1ppDjIV9EV80i8daVeNZjhDht36IGLiPBWc3msPRW_ACv5YNGUJFpF88zsNvy-h1at3DZ-Q7IGrq3rljP_MU2X5ktEuxi-6O7SgM3hp0YQYZPlRGn9CZOOAZr_kubv35bE-XLnfXShK6Jwmyl1SrqvMO9s6sGlbCES_S5MVgGWq-zxiEuSU9s7iIEiQsG86rAC110R9aOkbAAlPoenuerwNceIWRpTtN2OQZ2oUwugWrMg"/>
+<div class="flex-1 min-w-0 flex flex-col justify-center space-y-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Especialista Vinculada</span>
+<div class="flex items-center gap-space-xs">
+<img class="inline-block h-7 w-7 rounded-full object-cover ring-2 ring-surface-container-lowest" data-alt="Portrait of Fernanda R., pedicure and podology specialist with friendly smile in light pink tunic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHO3GE-SdzzkypjO4BbfrPBpT03dBtYbGh9blQBUPqGeiaXiM865iUMymT9NqAgF53Jw1L8pDClQYbMpByPPmrsNJwXywzmFHlhPo7PrGXBLvDDbhKnb-wMAhqtaOByabcwCiC4S9qHB7Hu8_WLOAtQOPFMK2XgTz9Jje_m0Q0UmE_ZrF7YYAvaC0PpzcaYDUJ-JuoFrmyxriK2uNSju4lTgJc_z49_L8jYKONL7N4fapuznPUfrE"/>
+<span class="font-label-md text-label-md text-on-surface">Fernanda R.</span>
+</div>
+</div>
+</div>
+<!-- Card Footbar Quick Action -->
+<div class="flex items-center justify-between pt-space-xs border-t-0">
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">spa</span>
+<span>Espaço Podologia 01</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button aria-label="Editar serviço" class="action-edit-btn w-9 h-9 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+<button aria-label="Mais opções" class="w-9 h-9 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+<!-- Card 4: Blindagem Diamante com Gel -->
+<article class="service-card relative bg-surface-container-lowest rounded-xl p-space-md shadow-[0_4px_20px_-2px_rgba(190,24,93,0.05)] transition-all hover:shadow-[0_8px_24px_-4px_rgba(190,24,93,0.09)]" data-category="alongamentos">
+<div class="absolute left-0 top-3 bottom-3 w-1 bg-outline-variant rounded-r-full"></div>
+<div class="flex flex-col space-y-space-sm pl-2">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="font-label-sm text-label-sm bg-surface-container-high text-on-surface-variant px-2 py-0.5 rounded-full">Fortalecimento</span>
+<span class="font-label-sm text-label-sm bg-primary-fixed text-on-primary-fixed px-2 py-0.5 rounded-full flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[13px]">bolt</span> Rápido
+              </span>
+</div>
+<h2 class="font-title-lg text-title-lg text-on-surface mt-1 truncate">Blindagem Diamante com Gel</h2>
+</div>
+<div class="flex flex-col items-end shrink-0">
+<span class="font-headline-md text-headline-md text-primary">R$ 85<span class="text-xs font-normal">,00</span></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 45m
+            </span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2">
+          Camada protetora para unhas naturais quebradiças, garantindo brilho espelhado e alta resistência contra descamação.
+        </p>
+<!-- Visual Media Sample & Tag Details -->
+<div class="flex items-center gap-space-md pt-space-xs">
+<div class="w-14 h-14 rounded-lg bg-surface-container-low flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[28px]">diamond</span>
+</div>
+<div class="flex-1 min-w-0 flex flex-col justify-center space-y-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Especialistas Vinculadas</span>
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center justify-center h-6 px-2 rounded-full bg-primary-fixed-dim text-on-primary-fixed text-label-sm font-semibold">
+                Todas (Equipe Completa)
+              </span>
+</div>
+</div>
+</div>
+<!-- Card Footbar Quick Action -->
+<div class="flex items-center justify-between pt-space-xs border-t-0">
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">group</span>
+<span>Habilitado para 5 profissionais</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button aria-label="Editar serviço" class="action-edit-btn w-9 h-9 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+<button aria-label="Mais opções" class="w-9 h-9 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+</div>
+<!-- Bottom Quick Configuration Strip -->
+<section class="bg-surface-container-low rounded-xl p-space-md flex flex-col space-y-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">tune</span>
+<span class="font-title-md text-title-md text-on-surface">Configurações Rápidas de Cabine</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-semibold">Ativo</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+      Ajuste em lote os intervalos de higienização de bancada (buffer time) e valores de repasse por designer.
+    </p>
+<div class="grid grid-cols-2 gap-space-sm pt-space-xs">
+<button class="flex items-center justify-center gap-2 h-11 bg-surface-container-lowest text-on-surface rounded-lg font-label-md text-label-md shadow-sm active:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-[18px] text-primary">hourglass_empty</span>
+<span>Intervalo (15 min)</span>
+</button>
+<button class="flex items-center justify-center gap-2 h-11 bg-surface-container-lowest text-on-surface rounded-lg font-label-md text-label-md shadow-sm active:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-[18px] text-secondary">percent</span>
+<span>Taxa de Repasse</span>
+</button>
+</div>
+</section>
+<!-- Interactive Slide-over / Modal for Fast Edit & New Service -->
+<div class="fixed inset-0 z-50 pointer-events-none transition-opacity duration-300 opacity-0 flex items-end justify-center" id="serviceDrawer">
+<!-- Backdrop Scrim -->
+<div class="absolute inset-0 bg-inverse-surface/40 backdrop-blur-sm transition-opacity" id="drawerScrim"></div>
+<!-- Sheet Card -->
+<div class="relative w-full max-w-lg bg-surface-container-lowest rounded-t-3xl p-space-lg shadow-2xl flex flex-col max-h-[88vh] overflow-y-auto transform translate-y-full transition-transform duration-300" id="drawerContent">
+<div class="w-12 h-1.5 bg-surface-variant rounded-full mx-auto mb-space-md shrink-0"></div>
+<div class="flex items-center justify-between pb-space-sm">
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface" id="drawerTitle">Editar Serviço</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Atualize valores, tempo de cabine e equipe.</p>
+</div>
+<button class="w-10 h-10 rounded-full bg-surface-container-low text-on-surface-variant flex items-center justify-center hover:bg-surface-container transition-colors" id="closeDrawerBtn">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<form class="flex flex-col space-y-space-md mt-space-sm" id="serviceForm" onsubmit="event.preventDefault();">
+<div class="flex flex-col space-y-1">
+<label class="font-label-md text-label-md text-on-surface">Nome do Procedimento</label>
+<input class="h-12 px-4 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary/20 focus:outline-none" id="inputServiceName" type="text" value="Alongamento em Fibra de Vidro"/>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<div class="flex flex-col space-y-1">
+<label class="font-label-md text-label-md text-on-surface">Preço Cobrado (R$)</label>
+<div class="relative flex items-center">
+<span class="absolute left-3 text-on-surface-variant font-label-md text-label-md">R$</span>
+<input class="w-full h-12 pl-10 pr-3 rounded-xl bg-surface-container-low text-on-surface font-title-md text-title-md focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary/20 focus:outline-none" id="inputServicePrice" type="text" value="220,00"/>
+</div>
+</div>
+<div class="flex flex-col space-y-1">
+<label class="font-label-md text-label-md text-on-surface">Tempo de Cabine</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-on-surface-variant text-[18px]">schedule</span>
+<input class="w-full h-12 pl-10 pr-3 rounded-xl bg-surface-container-low text-on-surface font-title-md text-title-md focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary/20 focus:outline-none" id="inputServiceTime" type="text" value="2h 00m"/>
+</div>
+</div>
+</div>
+<div class="flex flex-col space-y-1">
+<label class="font-label-md text-label-md text-on-surface">Descrição e Cuidados Inclusos</label>
+<textarea class="p-3 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary/20 focus:outline-none resize-none" rows="3">Técnica resistente com acabamento natural, inclui cutilagem e hidratação cuticular profunda.</textarea>
+</div>
+<div class="flex flex-col space-y-2">
+<label class="font-label-md text-label-md text-on-surface">Vincular Profissionais</label>
+<div class="grid grid-cols-2 gap-space-xs">
+<label class="flex items-center gap-2 p-2.5 rounded-lg bg-surface-container-low cursor-pointer">
+<input checked="" class="rounded text-primary focus:ring-primary h-4 w-4" type="checkbox"/>
+<span class="font-label-sm text-label-sm text-on-surface">Mariana S.</span>
+</label>
+<label class="flex items-center gap-2 p-2.5 rounded-lg bg-surface-container-low cursor-pointer">
+<input checked="" class="rounded text-primary focus:ring-primary h-4 w-4" type="checkbox"/>
+<span class="font-label-sm text-label-sm text-on-surface">Larissa P.</span>
+</label>
+<label class="flex items-center gap-2 p-2.5 rounded-lg bg-surface-container-low cursor-pointer">
+<input class="rounded text-primary focus:ring-primary h-4 w-4" type="checkbox"/>
+<span class="font-label-sm text-label-sm text-on-surface">Fernanda R.</span>
+</label>
+<label class="flex items-center gap-2 p-2.5 rounded-lg bg-surface-container-low cursor-pointer">
+<input class="rounded text-primary focus:ring-primary h-4 w-4" type="checkbox"/>
+<span class="font-label-sm text-label-sm text-on-surface">Camila T. (Treinamento)</span>
+</label>
+</div>
+</div>
+<div class="pt-space-sm flex items-center gap-space-sm">
+<button class="flex-1 h-12 bg-primary text-on-primary rounded-full font-label-lg text-label-lg shadow-md hover:bg-primary-container active:scale-[0.98] transition-all" id="saveServiceBtn" type="button">
+            Salvar Alterações
+          </button>
+</div>
+</form>
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    // Drawer Logic
+    const drawer = document.getElementById('serviceDrawer');
+    const drawerContent = document.getElementById('drawerContent');
+    const drawerScrim = document.getElementById('drawerScrim');
+    const openNewBtn = document.getElementById('openNewServiceBtn');
+    const closeDrawerBtn = document.getElementById('closeDrawerBtn');
+    const saveBtn = document.getElementById('saveServiceBtn');
+    const drawerTitle = document.getElementById('drawerTitle');
+    const inputName = document.getElementById('inputServiceName');
+    const inputPrice = document.getElementById('inputServicePrice');
+
+    function openModal(isNew) {
+      if (isNew) {
+        drawerTitle.textContent = 'Novo Procedimento';
+        inputName.value = '';
+        inputPrice.value = '0,00';
+      } else {
+        drawerTitle.textContent = 'Editar Serviço';
+      }
+      drawer.classList.remove('pointer-events-none', 'opacity-0');
+      drawer.classList.add('opacity-100');
+      drawerContent.classList.remove('translate-y-full');
+      drawerContent.classList.add('translate-y-0');
+    }
+
+    function closeModal() {
+      drawerContent.classList.remove('translate-y-0');
+      drawerContent.classList.add('translate-y-full');
+      drawer.classList.remove('opacity-100');
+      drawer.classList.add('opacity-0', 'pointer-events-none');
+    }
+
+    if (openNewBtn) {
+      openNewBtn.addEventListener('click', () => openModal(true));
+    }
+
+    document.querySelectorAll('.action-edit-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const card = e.target.closest('.service-card');
+        if (card) {
+          const title = card.querySelector('h2');
+          if (title && inputName) {
+            inputName.value = title.textContent.trim();
+          }
+        }
+        openModal(false);
+      });
+    });
+
+    if (closeDrawerBtn) closeDrawerBtn.addEventListener('click', closeModal);
+    if (drawerScrim) drawerScrim.addEventListener('click', closeModal);
+    if (saveBtn) {
+      saveBtn.addEventListener('click', () => {
+        // Quick visual toast effect
+        saveBtn.textContent = 'Gravado com Sucesso!';
+        setTimeout(() => {
+          saveBtn.textContent = 'Salvar Alterações';
+          closeModal();
+        }, 600);
+      });
+    }
+
+    // Category Tabs Filter Logic
+    const tabs = document.querySelectorAll('.category-pill');
+    const cards = document.querySelectorAll('.service-card');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => {
+          t.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+          t.classList.add('bg-surface-container-low', 'text-on-surface-variant');
+        });
+        tab.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+        tab.classList.remove('bg-surface-container-low', 'text-on-surface-variant');
+
+        const cat = tab.getAttribute('data-category');
+        cards.forEach(card => {
+          const cardCat = card.getAttribute('data-category');
+          if (cat === 'all' || cardCat === cat) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Realtime Search Filter
+    const searchInput = document.getElementById('serviceSearchInput');
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase().trim();
+        cards.forEach(card => {
+          const text = card.textContent.toLowerCase();
+          if (text.includes(query)) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    }
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-8px_24px_-4px_rgba(30,26,29,0.05)]" data-active-classes="text-primary font-semibold"><div class="flex justify-around items-center h-16 px-space-xs"><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-colors" data-path="inicio" href="#"><span class="material-symbols-outlined text-[24px]">dashboard</span><span class="font-label-sm text-label-sm mt-0.5">Início</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-colors" data-path="agenda" href="#"><span class="material-symbols-outlined text-[24px]">calendar_today</span><span class="font-label-sm text-label-sm mt-0.5">Agenda</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-colors" data-path="equipe-e-servicos" href="#"><span class="material-symbols-outlined text-[24px]">spa</span><span class="font-label-sm text-label-sm mt-0.5">Equipe</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-colors" data-path="comissoes" href="#"><span class="material-symbols-outlined text-[24px]">payments</span><span class="font-label-sm text-label-sm mt-0.5">Comissões</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-colors" data-path="ajustes" href="#"><span class="material-symbols-outlined text-[24px]">tune</span><span class="font-label-sm text-label-sm mt-0.5">Ajustes</span></a></div></nav></body></html>

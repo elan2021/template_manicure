@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;600&amp;family=Plus+Jakarta+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "outline": "#8d7075", "surface-tint": "#b81059", "on-primary-fixed-variant": "#8f0042", "on-primary-container": "#ffd5dd", "inverse-primary": "#ffb1c3", "primary-fixed": "#ffd9e0", "background": "#fff7fa", "surface-bright": "#fff7fa", "tertiary-fixed-dim": "#ffb2b7", "primary": "#970046", "surface-container": "#f5ebef", "on-surface-variant": "#594046", "on-error-container": "#93000a", "surface-variant": "#e9e0e4", "error-container": "#ffdad6", "surface-container-lowest": "#ffffff", "surface-dim": "#e1d8dc", "on-primary": "#ffffff", "secondary-fixed-dim": "#fab983", "on-tertiary-container": "#ffd6d8", "surface-container-high": "#efe6ea", "on-secondary-fixed": "#2e1500", "surface-container-low": "#fbf1f5", "surface-container-highest": "#e9e0e4", "secondary": "#845326", "on-primary-fixed": "#3f0019", "primary-fixed-dim": "#ffb1c3", "inverse-on-surface": "#f8eef2", "on-tertiary-fixed": "#40000d", "tertiary-container": "#c3143f", "on-background": "#1e1a1d", "on-tertiary-fixed-variant": "#92002a", "tertiary": "#9a002d", "on-secondary-container": "#78491d", "inverse-surface": "#342f32", "on-tertiary": "#ffffff", "surface": "#fff7fa", "on-error": "#ffffff", "tertiary-fixed": "#ffdadb", "on-secondary": "#ffffff", "on-secondary-fixed-variant": "#683c11", "outline-variant": "#e0bec4", "error": "#ba1a1a", "secondary-fixed": "#ffdcc2", "secondary-container": "#febc85", "primary-container": "#be185d", "on-surface": "#1e1a1d" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2.25rem", "space-sm": "0.5rem", "space-md": "1rem", "gutter": "1rem", "margin": "1.25rem", "space-lg": "1.5rem", "space-xs": "0.25rem" }, "fontFamily": { "label-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Epilogue"], "label-sm": ["Plus Jakarta Sans"], "title-lg": ["Plus Jakarta Sans"], "display-lg": ["Epilogue"], "label-md": ["Plus Jakarta Sans"], "headline-lg": ["Epilogue"], "headline-md": ["Epilogue"], "body-sm": ["Plus Jakarta Sans"] }, "fontSize": { "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" }], "title-lg": ["18px", { "lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "600" }], "display-lg": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500" }], "headline-lg": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "600" }], "headline-md": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style></head><body class="bg-surface text-on-surface flex flex-col min-h-screen antialiased selection:bg-primary/20 selection:text-primary"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_4px_20px_-4px_rgba(190,24,93,0.06)] pt-safe"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="L'Émail Studio Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VYzYrHum-_aOHFHXmmM1NqTyK9OrMqo7XQdC_EavN_ODnHAqPq6RH5B1An9xTxVDFGySH97bAACAiXKstjnM2P4XC8J_FqkiDiiCjrSBY1HlGoyVsPAk4ebrdLFC2To8wsO14z_D6msI_IaaBs3f4dCU5K3s6xDwmavk8CSCMfcyIq6mWox4vK6LSNHss0nQidwQGCvUP6dSS2wrXyvRqm-RQYUyzBayxI3iJXnu9P_h4tZ7MQrPdC"/><div class="flex flex-col"><span class="font-title-lg text-title-lg text-primary leading-tight">L'Émail Studio</span><span class="font-label-sm text-label-sm text-on-surface-variant font-medium tracking-wide uppercase">Ajustes</span></div></div><div class="flex items-center gap-space-sm"><button aria-label="Notificações" class="w-11 h-11 rounded-full flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors relative"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-primary ring-2 ring-surface"></span></button><div class="relative flex items-center justify-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary/20 shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFQrw3_FIA8SZjC1JtbGWUAXJv6wjd7d1iM0lyucrYdvvOsY6TlL-vLlJwvJIJybqqXCfNdsSs6CCeJbaGgekTP0uiF685AwqFWXIBMfGlsWaTVk-z_ugR993EfY85k2wQD7U0ntqtRiR9pRmeYaBCUipePFztvYpnZ8qxOVKFHl-NZsR3baBzArT8vhX63Sm7pKlT_CtTJDWUmzhoUOA7GwikC9mmlW156VkRYqK8JEU_osEEoZ8"/><span class="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 bg-primary rounded-full ring-2 ring-surface"></span></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full pb-10">
+<!-- Top Ambient Banner with Atelier Essence -->
+<div class="relative w-full px-margin pt-space-md pb-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-surface-tint uppercase tracking-widest">Gestão &amp; Políticas</span>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface">Configurações do Studio</h1>
+</div>
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">storefront</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+      Ajuste a automação das clientes, regras de reserva e detalhes da sua assinatura estética.
+    </p>
+</div>
+<form class="flex flex-col gap-space-lg px-margin mt-space-xs" id="settings-form" onsubmit="event.preventDefault(); triggerSaveAnimation();">
+<!-- SEÇÃO 1: WHATSAPP DE ATENDIMENTO & LEMBRETES -->
+<section class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-secondary-container/40 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+</div>
+<div class="flex flex-col">
+<h2 class="font-title-md text-title-md text-on-surface">WhatsApp &amp; Lembretes</h2>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Comunicação inteligente e automática</span>
+</div>
+</div>
+<!-- Campo Número WhatsApp -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface-variant flex items-center justify-between" for="whatsapp-number">
+<span>WhatsApp Oficial de Atendimento</span>
+<span class="font-label-sm text-label-sm text-surface-tint flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">verified</span> Conectado
+          </span>
+</label>
+<div class="relative flex items-center">
+<span class="absolute left-3.5 text-on-surface-variant font-label-md text-label-md select-none">+55</span>
+<input class="w-full h-[52px] bg-surface-container-low text-on-surface rounded-xl pl-12 pr-4 font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest shadow-[inset_0_1px_2px_rgba(0,0,0,0.02)] transition-all" id="whatsapp-number" placeholder="(00) 00000-0000" type="tel" value="(11) 98765-4321"/>
+<button class="absolute right-2 px-3 py-1.5 rounded-lg bg-surface-container text-on-surface font-label-sm text-label-sm active:scale-95 transition-transform" type="button">
+            Testar
+          </button>
+</div>
+</div>
+<!-- Toggle Lembretes Automáticos -->
+<div class="bg-surface-container-low/80 rounded-xl p-3.5 flex items-center justify-between gap-space-sm">
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-surface-tint">schedule_send</span>
+<span class="font-title-md text-title-md text-on-surface">Lembretes Automáticos</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+            Disparos programados: 24h e 2h antes do horário
+          </span>
+</div>
+<!-- Modern Switch -->
+<label class="relative inline-flex items-center cursor-pointer shrink-0">
+<input checked="" class="sr-only peer" id="toggle-reminders" type="checkbox"/>
+<div class="w-[50px] h-[28px] bg-surface-variant peer-focus:outline-none rounded-full peer peer-checked:bg-primary-container transition-colors duration-200"></div>
+<div class="absolute left-[3px] top-[3px] bg-surface-container-lowest w-[22px] h-[22px] rounded-full transition-transform duration-200 shadow-sm peer-checked:translate-x-[22px]"></div>
+</label>
+</div>
+<!-- Mensagem Personalizável -->
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between items-center">
+<label class="font-label-md text-label-md text-on-surface-variant" for="reminder-template">Mensagem Personalizada</label>
+<button class="font-label-sm text-label-sm text-primary font-semibold hover:opacity-80" onclick="insertTag('{cliente}')" type="button">+ Tag Nome</button>
+</div>
+<div class="relative">
+<textarea class="w-full bg-surface-container-low text-on-surface rounded-xl p-3 font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-lowest transition-all resize-none shadow-[inset_0_1px_2px_rgba(0,0,0,0.02)]" id="reminder-template" rows="3">Olá, {cliente}! Seu momento de cuidado no L'Émail Studio está confirmado para amanhã às {hora}. Para reagendamentos, avise-nos com até 4h de antecedência.</textarea>
+<div class="flex items-center justify-between mt-1 px-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant/80">Tags ativas: {cliente}, {hora}, {servico}</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant/70">188/240</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SEÇÃO 2: COBRANÇA DE SINAL (RESERVA ANTI-NO-SHOW) -->
+<section class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md relative overflow-hidden">
+<!-- Decorative Rose Glow Tint -->
+<div class="absolute -top-12 -right-12 w-32 h-32 rounded-full bg-primary-fixed/40 blur-2xl pointer-events-none"></div>
+<div class="flex items-start justify-between gap-2">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">shield</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<h2 class="font-title-md text-title-md text-on-surface">Cobrança de Sinal</h2>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">Anti-No-Show</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Proteção contra horários vagos e desmarcações</span>
+</div>
+</div>
+</div>
+<!-- Main Toggle -->
+<div class="p-3.5 rounded-xl bg-surface-container-low flex items-center justify-between">
+<div class="flex flex-col pr-2">
+<span class="font-title-md text-title-md text-on-surface">Exigir sinal para agendar</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Libera o horário somente após quitação</span>
+</div>
+<label class="relative inline-flex items-center cursor-pointer shrink-0">
+<input checked="" class="sr-only peer" id="toggle-deposit" type="checkbox"/>
+<div class="w-[50px] h-[28px] bg-surface-variant peer-focus:outline-none rounded-full peer peer-checked:bg-primary-container transition-colors duration-200"></div>
+<div class="absolute left-[3px] top-[3px] bg-surface-container-lowest w-[22px] h-[22px] rounded-full transition-transform duration-200 shadow-sm peer-checked:translate-x-[22px]"></div>
+</label>
+</div>
+<!-- Insight Box Anti-No-Show -->
+<div class="bg-primary-fixed/30 rounded-xl p-3.5 flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[22px] mt-0.5 shrink-0" style="font-variation-settings: 'FILL' 1;">trending_up</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary font-semibold">Redução média de 92% nas faltas</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 leading-snug">
+            O compromisso financeiro prévio assegura a valorização do tempo da sua manicure e cobre custos de materiais esterilizados.
+          </p>
+</div>
+</div>
+<!-- Depósito Options Container -->
+<div class="flex flex-col gap-space-md" id="deposit-settings-group">
+<!-- Tipo de Cobrança (Pills) -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface-variant">Modalidade de Retenção</label>
+<div class="grid grid-cols-2 gap-2">
+<button class="h-12 rounded-xl flex items-center justify-center gap-2 font-label-md text-label-md transition-all bg-primary text-on-primary shadow-sm" id="btn-fixed-deposit" onclick="setDepositType('fixed')" type="button">
+<span class="material-symbols-outlined text-[18px]">payments</span>
+<span>Valor Fixo (R$)</span>
+</button>
+<button class="h-12 rounded-xl flex items-center justify-center gap-2 font-label-md text-label-md transition-all bg-surface-container-low text-on-surface hover:bg-surface-container" id="btn-percent-deposit" onclick="setDepositType('percent')" type="button">
+<span class="material-symbols-outlined text-[18px]">percent</span>
+<span>Porcentagem (%)</span>
+</button>
+</div>
+</div>
+<!-- Inputs de Valor Dinâmicos -->
+<div class="grid grid-cols-2 gap-3">
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface-variant" for="deposit-value" id="label-deposit-value">Valor da Reserva</label>
+<div class="relative flex items-center">
+<span class="absolute left-3.5 font-label-md text-label-md text-on-surface-variant" id="deposit-prefix">R$</span>
+<input class="w-full h-[52px] bg-surface-container-low text-on-surface rounded-xl pl-10 pr-3 font-title-md text-title-md focus:outline-none focus:bg-surface-container-lowest transition-all" id="deposit-value" type="text" value="40,00"/>
+</div>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface-variant" for="deposit-timelimit">Tempo Limite PIX</label>
+<div class="relative flex items-center">
+<select class="w-full h-[52px] bg-surface-container-low text-on-surface rounded-xl px-3 font-label-md text-label-md appearance-none focus:outline-none focus:bg-surface-container-lowest transition-all" id="deposit-timelimit">
+<option selected="" value="15">15 minutos</option>
+<option value="30">30 minutos</option>
+<option value="60">1 hora</option>
+<option value="120">2 horas</option>
+</select>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant absolute right-3 pointer-events-none">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Chave Pix -->
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between items-center">
+<label class="font-label-md text-label-md text-on-surface-variant" for="pix-key">Chave Pix para Recebimento</label>
+<span class="font-label-sm text-label-sm text-surface-tint font-medium">Conta Vinculada: Itaú Unibanco</span>
+</div>
+<div class="grid grid-cols-3 gap-2 mb-1">
+<button class="py-1.5 rounded-lg bg-surface-container-high text-on-surface font-label-sm text-label-sm active:bg-primary-fixed" onclick="setPixType('cnpj')" type="button">CNPJ</button>
+<button class="py-1.5 rounded-lg bg-surface-container-low text-on-surface font-label-sm text-label-sm active:bg-primary-fixed" onclick="setPixType('phone')" type="button">Telefone</button>
+<button class="py-1.5 rounded-lg bg-surface-container-low text-on-surface font-label-sm text-label-sm active:bg-primary-fixed" onclick="setPixType('random')" type="button">Aleatória</button>
+</div>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant absolute left-3.5">qr_code_2</span>
+<input class="w-full h-[52px] bg-surface-container-low text-on-surface rounded-xl pl-11 pr-10 font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest transition-all" id="pix-key" type="text" value="42.890.123/0001-90"/>
+<button class="absolute right-2.5 text-on-surface-variant hover:text-primary" onclick="copyPixKey()" type="button">
+<span class="material-symbols-outlined text-[20px]">content_copy</span>
+</button>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">O cliente receberá o QR Code gerado dinamicamente com esta chave.</span>
+</div>
+</div>
+</section>
+<!-- SEÇÃO 3: DADOS DO ESTABELECIMENTO & ENDEREÇO -->
+<section class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">pin_drop</span>
+</div>
+<div class="flex flex-col">
+<h2 class="font-title-md text-title-md text-on-surface">Atelier &amp; Localização</h2>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Visível para navegação e comprovantes</span>
+</div>
+</div>
+<!-- Nome Fantasia & Razão Social -->
+<div class="flex flex-col gap-space-sm">
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface-variant" for="brand-name">Nome Fantasia (Como aparece no App)</label>
+<input class="w-full h-[52px] bg-surface-container-low text-on-surface rounded-xl px-4 font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest transition-all" id="brand-name" type="text" value="L'Émail Studio Privé"/>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface-variant" for="legal-name">Razão Social</label>
+<input class="w-full h-[52px] bg-surface-container-low text-on-surface rounded-xl px-4 font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest transition-all" id="legal-name" type="text" value="L Email Estética das Unhas &amp; Esmalteria LTDA"/>
+</div>
+</div>
+<!-- Visual Map Element -->
+<div class="flex flex-col gap-2">
+<label class="font-label-md text-label-md text-on-surface-variant flex justify-between">
+<span>Mapa de Localização</span>
+<span class="text-surface-tint font-label-sm text-label-sm flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">my_location</span> Atualizado
+          </span>
+</label>
+<div class="relative w-full h-36 rounded-xl overflow-hidden shadow-inner bg-surface-container">
+<div class="w-full h-full bg-cover bg-center" data-location="Alameda Lorena, 1420 - Jardins, São Paulo - SP" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDi4q_t3I_aJI0tr9JiGjfAk0ZY9IEiHo-wZFsjX5wRlLPd-vzAHh10yTuYgGXzVCsiHeZ5tGVBpwN5EwJrF_ldKtp8y260iYFVRbQRpbVT3ql-TIptg-5GTNMw2yEYh15ZK6E7jI-1RdcwzW76XoLo_14RoUssyekVYDcDiu-tToSkPP7DQY_70DDj-Am--r3zI1Jvd7Jzk-MFEkTbJyK95WtSeg2ptvzMZxnM3npde2ydJpksXzM')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-3 pointer-events-none">
+<div class="flex items-center gap-2 text-white">
+<span class="material-symbols-outlined text-primary-fixed text-[20px]">location_on</span>
+<span class="font-label-md text-label-md font-medium drop-shadow-sm truncate">Alameda Lorena, 1420 - Jardins</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Endereço com Complemento -->
+<div class="flex flex-col gap-space-sm">
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface-variant" for="street-address">Logradouro e Número</label>
+<input class="w-full h-[52px] bg-surface-container-low text-on-surface rounded-xl px-4 font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest transition-all" id="street-address" type="text" value="Alameda Lorena, 1420"/>
+</div>
+<div class="grid grid-cols-2 gap-2">
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface-variant" for="complement">Complemento</label>
+<input class="w-full h-[52px] bg-surface-container-low text-on-surface rounded-xl px-3 font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest transition-all" id="complement" type="text" value="Sala 402 - 4º Andar"/>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface-variant" for="neighborhood">Bairro &amp; Cidade</label>
+<input class="w-full h-[52px] bg-surface-container-low text-on-surface rounded-xl px-3 font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest transition-all" id="neighborhood" type="text" value="Jardins, SP"/>
+</div>
+</div>
+</div>
+</section>
+<!-- SEÇÃO 4: HORÁRIO DE FUNCIONAMENTO -->
+<section class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">access_time</span>
+</div>
+<div class="flex flex-col">
+<h2 class="font-title-md text-title-md text-on-surface">Grade de Atendimento</h2>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Janelas abertas para reservas</span>
+</div>
+</div>
+<button class="font-label-sm text-label-sm text-primary font-semibold hover:opacity-80" onclick="applyToAllDays()" type="button">
+          Copiar p/ Todos
+        </button>
+</div>
+<!-- Tabela Semanal Dinâmica -->
+<div class="flex flex-col gap-2">
+<!-- Segunda-feira -->
+<div class="flex items-center justify-between p-2.5 rounded-xl bg-surface-container-low/60 hover:bg-surface-container-low transition-colors">
+<div class="flex items-center gap-3 w-28">
+<span class="w-2 h-2 rounded-full bg-primary shrink-0"></span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Segunda</span>
+</div>
+<div class="flex items-center gap-1.5 font-body-sm text-body-sm text-on-surface">
+<span class="px-2 py-1 rounded bg-surface-container-lowest shadow-sm font-label-md text-label-md">09:00</span>
+<span class="text-on-surface-variant">às</span>
+<span class="px-2 py-1 rounded bg-surface-container-lowest shadow-sm font-label-md text-label-md">19:30</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant/60 text-[18px]">edit</span>
+</div>
+<!-- Terça a Sexta Resumida -->
+<div class="flex items-center justify-between p-2.5 rounded-xl bg-surface-container-low/60 hover:bg-surface-container-low transition-colors">
+<div class="flex items-center gap-3 w-28">
+<span class="w-2 h-2 rounded-full bg-primary shrink-0"></span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Terça a Sex</span>
+</div>
+<div class="flex items-center gap-1.5 font-body-sm text-body-sm text-on-surface">
+<span class="px-2 py-1 rounded bg-surface-container-lowest shadow-sm font-label-md text-label-md">09:00</span>
+<span class="text-on-surface-variant">às</span>
+<span class="px-2 py-1 rounded bg-surface-container-lowest shadow-sm font-label-md text-label-md">19:30</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant/60 text-[18px]">edit</span>
+</div>
+<!-- Sábado -->
+<div class="flex items-center justify-between p-2.5 rounded-xl bg-surface-container-low/60 hover:bg-surface-container-low transition-colors">
+<div class="flex items-center gap-3 w-28">
+<span class="w-2 h-2 rounded-full bg-primary shrink-0"></span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Sábado</span>
+</div>
+<div class="flex items-center gap-1.5 font-body-sm text-body-sm text-on-surface">
+<span class="px-2 py-1 rounded bg-surface-container-lowest shadow-sm font-label-md text-label-md">09:00</span>
+<span class="text-on-surface-variant">às</span>
+<span class="px-2 py-1 rounded bg-surface-container-lowest shadow-sm font-label-md text-label-md">19:30</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant/60 text-[18px]">edit</span>
+</div>
+<!-- Domingo -->
+<div class="flex items-center justify-between p-2.5 rounded-xl bg-surface-container-low/40 opacity-75">
+<div class="flex items-center gap-3 w-28">
+<span class="w-2 h-2 rounded-full bg-outline-variant shrink-0"></span>
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">Domingo</span>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary px-2.5 py-0.5 rounded-full bg-tertiary-fixed font-semibold">
+            Fechado para Descanso
+          </span>
+<span class="material-symbols-outlined text-on-surface-variant/40 text-[18px]">lock</span>
+</div>
+</div>
+</section>
+<!-- Visual Atelier Atmosphere Accent -->
+<div class="relative w-full rounded-xl overflow-hidden h-28 flex items-center px-space-md shadow-sm">
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="Close up photography of luxury nail care atelier instruments, rose gold cuticle pushers, soft pink towels and delicate glass dropper bottles bathed in soft morning cinematic sunlight, minimalist quiet luxury aesthetic with subtle warm blush tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBoj6ulYIpiWLV8DyzWo9qD5wb_XVj9P-IgDD_Y5_DpIRSNfmLtth9HPhOezCvzUx9HzuP5KguHym535Sxwe_uWSM8tqGdWJXQxJVBvjVpYeP7EPcvlCjNq7xpC_cPyhWmrShcaRMl6H8-KaCrx5Kxo4IvCrtLckBc_8aTakz03MlRfp1mmc0l-pBwtXAPoSMOEa_CErvZZcZh-SNUIMI-qxbGoK3WyVByWb7UCzCyGMFxHaHGOeAE"/>
+<div class="absolute inset-0 bg-gradient-to-r from-on-background/80 via-on-background/60 to-transparent"></div>
+<div class="relative z-10 flex flex-col max-w-[240px]">
+<span class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-wider">Atelier de Alta Precisão</span>
+<span class="font-title-md text-title-md text-white mt-0.5">Políticas claras criam clientes fiéis.</span>
+</div>
+</div>
+<!-- BOTÃO FIXADO DE AÇÃO PRIMÁRIA -->
+<div class="pt-space-xs pb-4">
+<button class="w-full h-[54px] rounded-full bg-primary hover:bg-primary-container text-on-primary font-title-md text-title-md flex items-center justify-center gap-2 shadow-[0_6px_18px_rgba(190,24,93,0.28)] active:scale-[0.98] transition-all" id="btn-save-settings" type="submit">
+<span class="material-symbols-outlined text-[20px]">save</span>
+<span>Salvar Todas as Configurações</span>
+</button>
+<!-- Toast Microinteraction Feedback (Hidden by default) -->
+<div class="hidden mt-3 p-3 rounded-xl bg-surface-container-highest text-on-surface flex items-center justify-center gap-2 animate-bounce" id="save-toast">
+<span class="material-symbols-outlined text-surface-tint text-[18px]">check_circle</span>
+<span class="font-label-md text-label-md">Alterações sincronizadas no Studio com sucesso!</span>
+</div>
+</div>
+</form>
+</div>
+<script>
+  function setDepositType(type) {
+    const btnFixed = document.getElementById('btn-fixed-deposit');
+    const btnPercent = document.getElementById('btn-percent-deposit');
+    const labelVal = document.getElementById('label-deposit-value');
+    const prefix = document.getElementById('deposit-prefix');
+    const inputVal = document.getElementById('deposit-value');
+
+    if (type === 'fixed') {
+      btnFixed.className = "h-12 rounded-xl flex items-center justify-center gap-2 font-label-md text-label-md transition-all bg-primary text-on-primary shadow-sm";
+      btnPercent.className = "h-12 rounded-xl flex items-center justify-center gap-2 font-label-md text-label-md transition-all bg-surface-container-low text-on-surface hover:bg-surface-container";
+      labelVal.innerText = "Valor da Reserva";
+      prefix.innerText = "R$";
+      inputVal.value = "40,00";
+    } else {
+      btnPercent.className = "h-12 rounded-xl flex items-center justify-center gap-2 font-label-md text-label-md transition-all bg-primary text-on-primary shadow-sm";
+      btnFixed.className = "h-12 rounded-xl flex items-center justify-center gap-2 font-label-md text-label-md transition-all bg-surface-container-low text-on-surface hover:bg-surface-container";
+      labelVal.innerText = "Percentual da Reserva";
+      prefix.innerText = "%";
+      inputVal.value = "30";
+    }
+  }
+
+  function setPixType(type) {
+    const pixInput = document.getElementById('pix-key');
+    if (type === 'cnpj') pixInput.value = "42.890.123/0001-90";
+    if (type === 'phone') pixInput.value = "+55 (11) 98765-4321";
+    if (type === 'random') pixInput.value = "c18a992d-745a-4bcf-8f23-99bf9c771aa4";
+  }
+
+  function copyPixKey() {
+    const pixInput = document.getElementById('pix-key');
+    navigator.clipboard?.writeText(pixInput.value);
+    alert("Chave Pix copiada com sucesso!");
+  }
+
+  function insertTag(tag) {
+    const textarea = document.getElementById('reminder-template');
+    textarea.value += " " + tag;
+    textarea.focus();
+  }
+
+  function applyToAllDays() {
+    alert("Horário comercial (09:00 - 19:30) aplicado de Segunda a Sábado.");
+  }
+
+  function triggerSaveAnimation() {
+    const saveBtn = document.getElementById('btn-save-settings');
+    const toast = document.getElementById('save-toast');
+    
+    saveBtn.innerHTML = `
+      <span class="material-symbols-outlined text-[20px] animate-spin">progress_activity</span>
+      <span>Atualizando Servidor...</span>
+    `;
+
+    setTimeout(() => {
+      saveBtn.innerHTML = `
+        <span class="material-symbols-outlined text-[20px]">check</span>
+        <span>Configurações Salvas!</span>
+      `;
+      toast.classList.remove('hidden');
+
+      setTimeout(() => {
+        saveBtn.innerHTML = `
+          <span class="material-symbols-outlined text-[20px]">save</span>
+          <span>Salvar Todas as Configurações</span>
+        `;
+        toast.classList.add('hidden');
+      }, 2500);
+    }, 600);
+  }
+
+  // Reactive toggle logic for the deposit section
+  document.getElementById('toggle-deposit')?.addEventListener('change', function(e) {
+    const group = document.getElementById('deposit-settings-group');
+    if(e.target.checked) {
+      group.style.opacity = '1';
+      group.style.pointerEvents = 'auto';
+    } else {
+      group.style.opacity = '0.4';
+      group.style.pointerEvents = 'none';
+    }
+  });
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-8px_24px_-4px_rgba(30,26,29,0.05)]" data-active-classes="text-primary font-semibold"><div class="flex justify-around items-center h-16 px-space-xs"><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-colors" data-path="inicio" href="#"><span class="material-symbols-outlined text-[24px]">dashboard</span><span class="font-label-sm text-label-sm mt-0.5">Início</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-colors" data-path="agenda" href="#"><span class="material-symbols-outlined text-[24px]">calendar_today</span><span class="font-label-sm text-label-sm mt-0.5">Agenda</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-colors" data-path="equipe-e-servicos" href="#"><span class="material-symbols-outlined text-[24px]">spa</span><span class="font-label-sm text-label-sm mt-0.5">Equipe</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-colors" data-path="comissoes" href="#"><span class="material-symbols-outlined text-[24px]">payments</span><span class="font-label-sm text-label-sm mt-0.5">Comissões</span></a><a aria-current="page" class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] py-1 transition-colors text-primary font-semibold" data-path="ajustes" href="#"><span class="material-symbols-outlined text-[24px]">tune</span><span class="font-label-sm text-label-sm mt-0.5">Ajustes</span></a></div></nav></body></html>
